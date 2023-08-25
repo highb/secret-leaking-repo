@@ -30,7 +30,7 @@ encrypted_secret_data = base64.b64encode(encrypted_secret_data).decode("utf-8")
 # POST the encrypted data to the server
 
 # This is the URL of the server
-url = "https://example.com/api"
+url = "https://example.com/api/secret"
 
 # This is the JSON payload that will be sent to the server
 payload = {
